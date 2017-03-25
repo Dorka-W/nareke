@@ -1,0 +1,60 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  /*background: linear-gradient(to top right, black, #00FF00);*/
+  background: linear-gradient(to right, black, #00FF00);
+}
+
+
+h1{
+  font-family: 'Rock Salt', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+.article{
+  text-align: center;
+  width: 70%;
+  /*color: lightblue;*/
+  color: white;
+  font-size: large;
+padding: 30px;
+margin: auto;
+}
+
+.content1{
+  display: inline-block;
+  line-height: 1.5;
+  width: 200px;
+height: 100px;
+}
+
+.content2{
+  display: inline-block;
+  line-height: 1.5;
+  width: 200px;
+  height: 100px;
+}
+
+.content3{
+  width: auto;
+  height: 50px;
+  line-height: 1.5;
+  padding-top: 20px;
+  }
+
+
+#myProgress{
+display: inline-block;
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  background-color: #D3D3D3;
+  border-radius: 6px;
+}
+#myBar{
+  width: 0%;
+  height: 30px;
+  background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  /*background-color: #8A2BE2;*/
+  border-radius: 6px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+	<html lang="pl-PL">
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>Ile na rękę</title>
+	<meta name="description" content="Aplikacja, która pozwoli Ci sprawdzić ile zarobisz na rękę">
+	<link rel="icon" href="img/icon1.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css"> -->
+<!-- <link rel="stylesheet" href="w3.css"> -->
+	</head>
+	<body>
+
+		  <div class="article">
+
+		<h1>Przelicznik wynagrodzenia</h1>
+
+
+<div>
+	<form>
+
+		<div class="content1">
+  <label for="stawka">Stawka</label>
+		<input class="przelicznik" id="stawka">
+	</div>
+
+<div class="content1">
+			<label for="godzin">Godzin</label>
+			<input class="procent przelicznik" id="godzin">
+</div>
+
+<div class="content1">
+	<label for="koszty">Koszty</label>
+  <input class="przelicznik" id="koszty">
+</div>
+
+</form>
+</div>
+
+<div>
+	<form>
+
+		<div class="content2">
+			<label for="cel">Cel (h)</label>
+			<input class="procent przelicznik" id="cel">
+		</div>
+	</form>
+</div>
+
+
+<div>
+
+<div class="content3" id="netto"></div>
+<div class="content3" id="zus"></div>
+<div class="content3" id="skarbowy"></div>
+<div class="content3 podsumowanie" id="wynik"></div>
+
+</div>
+
+
+<div id="myProgress">
+	<div id="myBar"></div>
+</div>
+
+<br>
+<button onclick="move()">Click Me</button>
+
+
+</div>
+<script src="jquery-3.1.1.min.js" type="text/javascript" ></script>
+<script src="main.js" type="text/javascript" ></script>
+
+
+</body>
+</html>
