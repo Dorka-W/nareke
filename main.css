@@ -1,8 +1,7 @@
 body{
   font-family: 'Roboto', sans-serif;
-  /*background: linear-gradient(to top right, black, #00FF00);*/
   background: linear-gradient(to right, black, #00FF00);
-  /*max-width: 1000px;*/
+
 }
 
 
@@ -14,8 +13,6 @@ h1{
 
 .article{
   text-align: center;
-  /*width: 70%;*/
-  /*color: lightblue;*/
   color: white;
   font-size: large;
 padding: 2em;
@@ -33,11 +30,10 @@ max-width: 1000px;
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
+
 .content1{
-  /*display: inline-block;*/
-/*justify-content: space-between;*/
 padding: 1em;
-background: orange;
+/*background: orange;*/
   line-height: 1.5;
   width: 10em;
 height: 4em;
@@ -45,9 +41,7 @@ height: 4em;
 
 .content2{
   padding: 1em;
-  background: blue;
-  /*display: inline-block;*/
-  /*justify-content: space-around;*/
+  /*background: blue;*/
 
   line-height: 1.5;
   width: 10em;
@@ -55,7 +49,7 @@ height: 4em;
 }
 
 .content3{
-  background: red;
+  /*background: red;*/
   width: auto;
   height: 3.5em;
   line-height: 1.5;
