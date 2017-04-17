@@ -62,7 +62,7 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-function move(procent=100) {
+function move(procent) {
     var elem = document.getElementById("myBar");
     var width = 0;
     var id = setInterval(frame, 25);
@@ -76,16 +76,16 @@ function move(procent=100) {
     }
 }
 
-function move_fancy(procent=100){
-  $(".meter > span").each(function() {
-    $(this)
-      .data("origWidth", procent+"%")
-      .width(0)
-      .animate({
-        width: $(this).data("origWidth")
-      }, 1200);
-  });
-}
+// function move_fancy(procent=100){
+//   $(".meter > span").each(function() {
+//     $(this)
+//       .data("origWidth", procent+"%")
+//       .width(0)
+//       .animate({
+//         width: $(this).data("origWidth")
+//       }, 1200);
+//   });
+// }
 
 function przelicz_procent(){
   var cel = $("#cel").val(), godzin=$("#godzin").val(), procent = 0;
@@ -99,7 +99,7 @@ function przelicz_procent(){
   //$("#pasek").val(procent); z jquery
   //document.getElementById("pasek").value = procent; <= wersja bez uzycia jQuery
   move(procent);
-  move_fancy(procent);
+  // move_fancy(procent);
 
 }
 
